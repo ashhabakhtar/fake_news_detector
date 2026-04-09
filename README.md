@@ -132,3 +132,9 @@ MIT License - Use for good, not evil! 😇
 ---
 *\"The ultimate measure of a news article is not what it says, but how it says it.\"*
 
+## 🚀 Advanced Features (v2.0)
+- **Hybrid Detection:** Combines TF-IDF keyword analysis with Stylometric metadata.
+- **Sentiment Analysis:** Uses `TextBlob` to detect emotional polarity and subjectivity.
+- **Ensemble Learning:** Implements a **Random Forest Classifier** for higher accuracy against "nearly real" fake news.
+- **Interactive Dashboard:** Advanced Streamlit UI featuring Trust Scores, Deception Risk metrics, and Style Breakdowns.
+
