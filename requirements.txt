@@ -4,5 +4,5 @@ scikit-learn
 nltk
 streamlit
 joblib
-matplotlib
-seaborn
+textblob
+plotly
