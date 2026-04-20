@@ -31,6 +31,8 @@ def load_models():
     else:
         print("[WARN] Model files not found! Run 'python train.py' first.")
 
+# Load models when the module is imported (required for WSGI like gunicorn)
+load_models()
 
 # ── Routes ─────────────────────────────────────────────────────────────────────
 @app.route('/')
@@ -71,6 +73,5 @@ def analyze():
 
 # ── Entry Point ────────────────────────────────────────────────────────────────
 if __name__ == '__main__':
-    load_models()
     print("[START] AI News Verifier running at http://localhost:5000")
     app.run(host='0.0.0.0', port=5000, debug=False)
