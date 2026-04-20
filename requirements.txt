@@ -1,8 +1,11 @@
 pandas
 numpy
+scipy
 scikit-learn
 nltk
 streamlit
 joblib
 textblob
 plotly
+Flask
+gunicorn
