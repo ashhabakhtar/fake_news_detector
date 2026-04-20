@@ -46,11 +46,11 @@ python train.py
 Models saved to /models/
 ```
 
-### 3. Launch Web App
+### 3. Launch Web Server
 ```bash
-streamlit run app.py
+python backend.py
 ```
-Open [http://localhost:8501](http://localhost:8501) in your browser!
+Open [http://localhost:5000](http://localhost:5000) in your browser! The frontend is powered by a modern, responsive HTML/CSS/JS interface communicating with our Flask API.
 
 ## 🔍 How to Use
 1. Paste full news article (title + body)
