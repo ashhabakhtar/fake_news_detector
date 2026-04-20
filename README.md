@@ -48,7 +48,7 @@ Models saved to /models/
 
 ### 3. Launch Web Server
 ```bash
-python backend.py
+python app.py
 ```
 Open [http://localhost:5000](http://localhost:5000) in your browser! The frontend is powered by a modern, responsive HTML/CSS/JS interface communicating with our Flask API.
 
